@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-02T15:38:36 IST" name="Wikipedia Test Suite" finished-at="2025-12-02T15:38:46 IST" duration-ms="9710">
+    <groups>
+    </groups>
+    <test started-at="2025-12-02T15:38:36 IST" name="Wikipedia Tests" finished-at="2025-12-02T15:38:46 IST" duration-ms="9710">
+      <class name="com.wikipedia.tests.SampleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.wikipedia.tests.SampleTest@4b741d6d]" started-at="2025-12-02T15:38:36 IST" name="setUp" finished-at="2025-12-02T15:38:45 IST" duration-ms="8747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openWikipedia()[pri:0, instance:com.wikipedia.tests.SampleTest@4b741d6d]" started-at="2025-12-02T15:38:45 IST" name="openWikipedia" finished-at="2025-12-02T15:38:46 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWikipedia -->
+      </class> <!-- com.wikipedia.tests.SampleTest -->
+    </test> <!-- Wikipedia Tests -->
+  </suite> <!-- Wikipedia Test Suite -->
+</testng-results>

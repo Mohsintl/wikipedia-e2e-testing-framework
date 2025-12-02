@@ -3,7 +3,7 @@
 <suite name="Wikipedia Test Suite">
     <test name="Wikipedia Tests">
         <classes>
-            <!-- We will add test classes in Sprint 1 -->
+           <class name="com.wikipedia.tests.SampleTest"/>
         </classes>
     </test>
 </suite>

@@ -1,2 +1,10 @@
-# wikipedia-e2e-testing-framework
-Automation framework for Wikipedia website using Selenium, TestNG, Maven, and Allure (End-to-End Testing)
+# Wikipedia E2E Testing Framework
+
+Tech Stack:
+- Selenium
+- TestNG
+- Maven
+- Allure Reports
+- Java
+
+## How to Run Tests
