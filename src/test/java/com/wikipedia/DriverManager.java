@@ -7,6 +7,19 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
+/**
+ * Manages WebDriver lifecycle using the Singleton pattern.
+ * 
+ * Responsibilities:
+ * - Creates and initializes WebDriver (Chrome/Firefox).
+ * - Manages implicit waits and page load timeouts.
+ * - Provides single entry point via getDriver().
+ * - Ensures clean driver shutdown via quitDriver().
+ * 
+ * Usage:
+ *   WebDriver driver = DriverManager.getDriver();  // Get or create
+ *   DriverManager.quitDriver();                      // Cleanup
+ */
 public class DriverManager {
     private static WebDriver driver;
     private static ConfigReader config = new ConfigReader();
@@ -16,7 +29,7 @@ public class DriverManager {
             String browser = config.getBrowser().toLowerCase();
             switch (browser) {
                 case "chrome":
-                    WebDriverManager.chromedriver().driverVersion("4.25.0").setup();
+                    WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     break;
                 case "firefox":

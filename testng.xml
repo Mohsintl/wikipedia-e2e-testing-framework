@@ -4,6 +4,10 @@
     <test name="Wikipedia Tests">
         <classes>
            <class name="com.wikipedia.tests.SampleTest"/>
+           <class name="com.wikipedia.tests.WikipediaSearchTest"/>
+           <class name="com.wikipedia.tests.LanguageSelectionTest"/>
+           <class name="com.wikipedia.tests.OpenAIUrlTest"/>
+
         </classes>
     </test>
 </suite>

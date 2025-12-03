@@ -1,1 +1,0 @@
-{"uuid":"0a33a4d0-32c4-4f1e-8c04-2da18a3fd147","name":"com.wikipedia.BaseTest.setUp","children":["edc9b67c-8b4b-428e-b674-fffdfc2ffdf4"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1764669790281,"stop":1764669802265}],"afters":[],"start":1764669790281,"stop":1764669802266}
