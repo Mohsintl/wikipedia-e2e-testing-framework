@@ -27,6 +27,8 @@ replay_pid*
 target/
 .mvn/wrapper/maven-wrapper.jar
 .mvn/wrapper/maven-wrapper.properties
+target/generated-sources/
+target/generated-test-sources/
 
 # IDE files and settings
 .idea/
